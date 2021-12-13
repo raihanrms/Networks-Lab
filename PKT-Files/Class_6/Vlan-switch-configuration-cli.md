@@ -21,10 +21,6 @@ Switch(config-vlan)#exit
 Switch(config)#exit
 Switch#show vlan brief    
 Switch#
-Switch#configure terminal
-Switch(config)#interface FastEthernet0/2
-Switch(config-if)#exit
-Switch(config)#exit
 Switch#enable
 Switch#configure terminal 
 Switch(config)#interface fastEthernet 0/2
