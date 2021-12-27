@@ -44,7 +44,7 @@ Switch#
 ```text
 Switch>enable 
 Switch#conf t
-Switch(config)#interface fastEthernet 0/24
+Switch(config)#interface gigabitEthernet 0/1
 Switch(config-if)#switchport mode trunk 
 Switch(config-if)#do wr
 Building configuration...
