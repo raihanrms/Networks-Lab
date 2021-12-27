@@ -82,7 +82,7 @@ Router(config)#
 Router#
 ```
 
-#### Manually add the ip address and default gate way to each pc
+#### Manually add the ip address and default gateway to each pc
 ```text
 Accounts: Vlan 2
 PC1:
