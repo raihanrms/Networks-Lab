@@ -44,7 +44,7 @@ Switch(config-if)#switchport access vlan 5
 Switch(config-if)#exit
 Switch(config)#exit
 Switch#configure
-Switch(config)#interface FastEthernet0/14-16
+Switch(config)#interface FastEthernet 0/14-16
 Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 4
 Switch(config-if)#exit
