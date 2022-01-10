@@ -37,6 +37,12 @@ Switch(config-if)#switchport access vlan 2
 Switch(config-if)#exit
 Switch(config)#exit
 Switch#enable 
+Switch(config)#interface fastEthernet 0/4
+Switch(config-if)#switchport mode access 
+Switch(config-if)#switchport access vlan 2
+Switch(config-if)#exit
+Switch(config)#exit
+Switch#enable
 Switch#configure 
 Switch(config)#interface fastEthernet 0/6
 Switch(config-if)#switchport mode access
