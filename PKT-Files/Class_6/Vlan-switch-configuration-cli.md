@@ -45,10 +45,8 @@ Switch(config-if)#exit
 Switch(config)#exit
 Switch#configure
 Switch(config)#interface FastEthernet0/14-16
-Switch(config-if)#
-Switch(config-if)#
+Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 4
-Switch(config-if)#
 Switch(config-if)#exit
 Switch(config)#exit
 Switch#copy running-config startup-config 
